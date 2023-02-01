@@ -1,0 +1,190 @@
+body{
+    background: rgb(20, 20, 20);
+    
+    background:rgb(22, 20, 20);
+    transition: 1s;
+    height: 100vh;
+    
+
+    
+}
+.ropa{
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    min-width: 100%;
+    min-height: 100%;
+}
+.container{
+    margin: 5em 8em;
+    border-radius: 40px;
+    box-shadow: 8px 8px 8px pink;
+    color:aliceblue;
+    position: relative;
+    z-index: 2;
+    border: 1px solid #000;
+    background: url("https://catherineasquithgallery.com/uploads/posts/2021-02/1614261189_22-p-fon-chernii-granzh-33.jpg");
+
+}
+header{
+    margin:  auto;
+}
+.container_about{
+    display: flex;
+    
+
+}
+.header{
+    padding-left: 40em;
+    
+    margin-bottom: 4em;
+    
+    
+}
+.header h1{
+    text-shadow: 4px 4px 4px pink;
+    margin: auto;
+    font-size: 2em;
+    
+
+}
+.container_about{
+    margin: 1em;
+}
+
+
+.container_about>*{
+
+}
+.class{
+    list-style-type:none ;
+    font-size: 1em;
+    
+    text-decoration: none;
+    color:rgb(54, 37, 100);
+    display: flex;
+    margin: auto;
+}
+
+.class li a{
+    text-decoration: none; 
+    margin-left:5em ;
+    border: 1px solid #000;
+    border-radius: 15px;
+    padding: 2em 4em;
+    background: #000;
+    color:white;
+    box-shadow: 4px 3px 4px pink;
+
+}
+.class>*:hover{
+    transform: translateX(-0.5em) translateY(-0.5em);
+}
+main{
+    margin: 2em 2em 2em 2em;
+    
+}
+.lopa{
+    
+    display: flex;
+    padding: 0 25em 0 25em;
+    margin: 7em 1em 2em 1em;
+    
+}
+.main_part{
+    margin-top: 4em;
+}
+.bb{
+    margin-left:auto ;
+    border: 1px solid #000;
+    text-shadow: 2px 3px 2px pink;
+    border-radius: 20px;
+    box-shadow: 2px 2px 2px black;
+    font-size: 1.4em;
+}
+.bb:hover{
+    background: white;
+    color:black;
+    transform: translateX(-0.5em) translateY(-0.5em); 
+}
+.main_h2{
+    margin: 0 2em 0 0;
+    border: 1px solid #000;
+    font-size: 1.4em;
+    text-shadow: 2px 3px 2px pink;
+    color:white;
+    border-radius:20px;
+    box-shadow: 2px 3px 3px pink;
+    
+}
+.main_h2:hover{
+    background: white;
+    color:black;
+    transform: translateX(-0.5em) translateY(-0.5em); 
+}
+.main_part{
+    display: flex;
+}
+.lefting{
+    border: 1px solid #000;
+    width: 50%;
+    border: 1px solid rgb(231, 229, 229);
+    border-radius: 17px;
+    box-shadow: 8px 8px 8px pink;
+
+}
+.lefting .blocks_2{
+    padding: 1em 2em;
+    
+}
+.lefting .blocks_2 h2{
+    text-decoration: underline;
+}
+
+
+.lefting .blocks_2 p{
+    text-shadow: 1px 1px 1px pink;
+    font-weight: bold;
+    font-size: 1.2em;
+
+}
+.lefting:hover{
+    transform:translatex(-15%) translateY(-10%) ;
+    box-shadow: 5px 6px 7px white,inset 10px 5px 6px rgb(230, 4, 42);
+    background: #000;
+}
+.righting{
+    border-radius: 17px;
+    box-shadow: 8px 8px 8px pink;
+    border: 1px solid rgb(243, 238, 238);
+    
+    width: 50%;
+    margin-left: auto;
+}
+.righting{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    gap:1em;
+    padding: 2em;
+}
+.righting:hover{
+    transform:translatex(-5%) translateY(-10%) ;
+    box-shadow: 5px 6px 7px white;
+    background: #000;
+}
+.righting>*{
+    background: #000;
+    box-shadow: 3px 4px 5px rgb(163, 10, 117);
+    width: 250px;
+    padding: 1em;
+    height: 200px;
+    margin: 1em;
+    border-radius: 20px;
+    border: 1px solid #000;
+}
+.righting img{
+    width: 100%;
+    height: 100%;
+}
+
